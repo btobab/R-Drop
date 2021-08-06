@@ -11,8 +11,8 @@ def val():
     accuracy = paddle.metric.Accuracy()
     model.eval()
     with paddle.no_grad():
+        summary = []
         for j, (eval_data, eval_label) in enumerate(val_dataloader()):
-            summary = []
             eval_label_hat = model(eval_data)
             eval_loss = ce_loss(eval_label_hat, eval_label)
             correct = accuracy.compute(eval_label_hat, eval_label)
