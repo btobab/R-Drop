@@ -4,3 +4,4 @@ visualdl
 paddleseg
 paddlenlp
 paddleocr
+ppim
