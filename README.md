@@ -76,3 +76,10 @@ python main.py
 ```
 python val.py
 ```
+## Reference（参考文献）
+> [[1]Liang, X., “R-Drop: Regularized Dropout for Neural Networks”, <i>arXiv e-prints</i>, 2021.
+](https://arxiv.org/abs/2106.14448)
+
+> [山竹果姐姐的调参博客（偷偷告诉你们，姐姐可是中科院校花噢～）](https://www.cnblogs.com/shona/p/12667950.html)
+
+> [逼乎对R-Drop的介绍](https://zhuanlan.zhihu.com/p/386085252)
